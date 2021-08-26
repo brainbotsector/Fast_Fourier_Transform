@@ -1,0 +1,22 @@
+=>Commands needed to  be added in terminal
+          $ sudo apt-get update
+
+=>Install c/c++ compiler
+          $ sudo apt-get install build-essential manpages-dev
+          Do you want to continue? [Y/n] Y
+
+=>Verify the gcc version
+          $ whereis gcc
+          $ which gcc
+          $ gcc –version
+
+=>The directory where our fft.cpp file is saved
+          $ cd Documents/
+
+=>Compile cpp code
+          $ sudo g++ fft.cpp
+
+=>Run cpp code
+          $ ./a.out
+
+
